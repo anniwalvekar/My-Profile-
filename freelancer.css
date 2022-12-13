@@ -1,0 +1,226 @@
+/* ----------------------------------------------------------------
+	Canvas: Demo Landing 2
+	Version: 1.0
+-----------------------------------------------------------------*/
+
+:root {
+	--themecolor: #f7c25e;
+	--themecolorrgba: 247, 194, 94;
+	  --secondary-text:#ff014f;
+	  --text-dark:#092032;
+}
+
+h1, h2, h3, h4, h5, h6, body { color: #333; }
+
+* {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.gradient-red-yellow,
+.h-gradient-red-yellow:hover {
+	background-image:  -webkit-linear-gradient(110.78deg, rgb(118, 230, 80) -1.13%, rgb(249, 214, 73) 15.22%, rgb(240, 142, 53) 32.09%, rgb(236, 81, 87) 48.96%, rgb(255, 24, 189) 67.94%, rgb(26, 75, 255) 85.34%) !important;
+	background-image: linear-gradient(110.78deg, rgb(118, 230, 80) -1.13%, rgb(249, 214, 73) 15.22%, rgb(240, 142, 53) 32.09%, rgb(236, 81, 87) 48.96%, rgb(255, 24, 189) 67.94%, rgb(26, 75, 255) 85.34%) !important;
+}
+
+.menu-item.current > .menu-link,
+.menu-item:hover > .menu-link {
+	background-image: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overflow-visible { overflow: visible !important; }
+.rounded-10 { border-radius: 10px !important; }
+
+#content p { line-height: 1.5; }
+
+@media (min-width: 992px) {
+	.section,
+	#footer .footer-widgets-wrap {
+		margin: 100px 0;
+		padding: 100px 0;
+	}
+}
+
+.navbar-brand i{
+	background-image: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	font-size: 2rem;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu-link {
+	font-weight: 600;
+	font-size: 0.925em;
+}
+
+.emphasis-title h1 {
+	font-size: calc(8.82629vw + 12.9014px) !important;
+	font-weight: 900;
+}
+/* .intro{
+	background-image: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.btn-header{
+	border-radius: 8px;
+	transition: all 0.4s ease-in-out;
+}
+/* .btn-header:hover{
+transform: translateY(-1rem);
+} */
+.button-hero {
+	padding: 23px 48px !important;
+	font-size: 1rem;
+	border-radius:5px;
+	box-shadow: 0px 13px 18px -14px rgba(0,0,0, 0.35);
+}
+
+.button.button-reveal.text-end i {
+	opacity: 0;
+	left: auto;
+	right: 32px;
+	background-color: transparent;
+	transition: all .3s ease !important;
+}
+
+.button:hover.button-reveal.text-end i {
+	opacity: 1;
+	right: 18px;
+	transform: translateX(-10px);
+}
+.about-img{
+	width: 500px;
+}
+
+.content p {
+	position: relative;
+	font-style: normal;
+	font-size: 1.2rem;
+	margin-bottom: 25px;
+}
+
+.testi-meta img {
+	width: 40px !important;
+	margin-right: 10px;
+}
+
+.testi-meta::before { display: none; }
+
+
+
+
+.portfolio-image img {
+	border-radius: 10px;
+}
+
+.translatey-3,
+.h-translatey-3:hover { transform: translateY(-3px) !important; }
+
+.tf-ts {
+	-webkit-transition: transform .3s ease;
+	transition: transform .3s ease;
+}
+
+/* #oc-services.owl-carousel .card-body img {
+	width: 50px;
+} */
+/* ********* Skills *********** */
+.skill i{
+	font-size: 3rem;
+    color: var(--secondary-text);
+    transition: all 0.4s;
+}
+.skill i:hover{
+    transform: scale(1.1);
+}
+.skill-img{
+width: 3.5rem;
+color: var(--secondary-text);
+transition: all 0.4s;
+}
+.skill-img:hover{
+    transform: scale(1.1);
+}
+
+/* Services */
+
+.card-body i{
+	width:50px;
+    height: 50px;
+    color: var(--secondary-text);
+    font-size: 40px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+
+.Social-link{
+	margin-top: 2rem;
+    font-size: 2rem;
+	color: var(--text-dark);
+}
+.social-link a i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dark);
+    padding: 0.8rem 1.5rem;
+    transition: transform 0.5s ease;
+ 
+  }
+  .social-link a i:hover{
+    color: var(--secondary-text);
+    background-color:#0d1013 ;
+    transform: translateY(-3px);
+  }
+
+
+
+
+
+
+
+
+/* Border Form Design
+---------------------------------------------------------------------------- */
+
+form label {
+	text-transform: none;
+	font-weight: 500;
+	font-size: 1rem;
+	letter-spacing: 0;
+}
+
+.border-form-control {
+	height: 42px;
+	padding: 0;
+	font-size: 1.25rem;
+	background-color: transparent !important;
+	border: none;
+	border-bottom: 2px solid rgba(0,0,0,0.07);
+}
+
+
+@-webkit-keyframes fadeInUp {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 7%, 0);
+		transform: translate3d(0, 7%, 0);
+	}
+
+}
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 7%, 0);
+		transform: translate3d(0, 7%, 0);
+	}
+}

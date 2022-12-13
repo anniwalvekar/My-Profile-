@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Heebo:300,400,500,700,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+    <!-- Freelancer Demo Specific Stylesheet -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="freelancer.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/colors.php?color=f7c25e" type="text/css" />
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Document Title
+	============================================= -->
+    <title>My-Profile</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header id="header" class="border-bottom-0 no-sticky transparent-header">
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row">
+              <!-- Logo
+						============================================= -->
+              <div id="logo">
+                <a class="navbar-brand mt-4" href="#"
+                  ><h3><i class="fa-solid fa-code"></i></h3
+                ></a>
+              </div>
+              <!-- #logo end -->
+
+              <div class="header-misc">
+                <a
+                  href="./demos/freelancer/images/AnitaW Resume.pdf"
+                  class="button btn-header button-reveal h-translatey-3 tf-ts bg-light text-dark"
+                  >Download CV</a
+                >
+              </div>
+
+              <!-- <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div> -->
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                  <li class="menu-item">
+                    <a class="menu-link text-white" href="#about"
+                      ><div>About me</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link text-white"
+                      href="demo-freelancer-works.html"
+                      ><div>Portfolio</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link text-white"
+                      href="demo-freelancer-works.html"
+                      ><div>Skill</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link text-white"
+                      href="demo-freelancer-works.html"
+                      ><div>Service</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link text-white"
+                      href="#"
+                      data-scrollto="#footer"
+                      data-easing="easeInOutExpo"
+                      data-speed="1250"
+                      data-offset="70"
+                      ><div>Contact</div></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- #header end -->
+
+      <!-- Slider
+		============================================= -->
+      <section
+        id="slider"
+        class="slider-element min-vh-md-100 py-4 include-header"
+        style="
+          background: url('demos/freelancer/images/njean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg')
+            repeat top center;
+          background-size: cover;
+        "
+      >
+        <div class="slider-inner">
+          <div class="vertical-middle slider-element-fade">
+            <div class="container text-center py-5">
+              <div class="emphasis-title mb-2">
+                <h3 class="text-uppercase ls3 fw-bolder mb-0 text-white">
+                  I'm a Anita Walvekar
+                </h3>
+                <h1>
+                  <span
+                    id="oc-images"
+                    class="owl-carousel image-carousel carousel-widget"
+                    data-items="1"
+                    data-margin="0"
+                    data-autoplay="3000"
+                    data-loop="true"
+                    data-nav="false"
+                    data-pagi="false"
+                    data-animate-in="fadeInUp"
+                  >
+                    <div
+                      class="oc-item gradient-text gradient-red-yellow text-uppercase"
+                    >
+                      Developer
+                    </div>
+                    <div
+                      class="oc-item gradient-text gradient-red-yellow text-uppercase"
+                    >
+                      Front-End
+                    </div>
+                  </span>
+                </h1>
+              </div>
+
+              <div class="mx-auto content" style="max-width: 600px">
+                <p class="fw-lighter mb-5 text-white">
+                  I am a Front-End Devloper located in India.I have a passion
+                  for UI effect,animation and creating intuitive,dynamic user
+                  exprience
+                </p>
+                <a
+                  href="#portfolio"
+                  class="button button-white button-hero h-translatey-3 tf-ts button-reveal overflow-visible text-end text-dark"
+                  ><span>View My Works</span
+                  ><i class="icon-line-arrow-right"></i
+                ></a>
+                <a
+                  href="#"
+                  data-scrollto="#footer"
+                  data-easing="easeInOutExpo"
+                  data-speed="1250"
+                  data-offset="70"
+                  class="button button-large button-light ls2 text-white bg-transparent m-0"
+                >
+                  <u>Contact Me </u><i class="icon-line2-arrow-down fw-bold"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #slider end -->
+
+      <div class="section bg-transparent py-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-lg-6" data-aos="fade-up">
+              <img
+                src="demos/freelancer/images/about-img.png"
+                class="about-img mb-4"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="fw-bolder h1 mb-4">About Me</h3>
+              <div class="oc-item">
+                <div class="testimonial border-0 shadow-none bg-transparent">
+                  <div class="content">
+                    <p>
+                      I am a Front-End Developer. I can create, improve or fix
+                      your current website so it truly represents your brand and
+                      attracts<br />
+                      ideal customers.<br />
+                      <br />
+                      I'm passionate about making the web a better place by
+                      creating responsive, dynamic, user-friendly websites that
+                      are optimized for SEO. I create some personal responsive
+                      that are fast,easy to use.The main area of my experties is
+                      front-end devlopment,HTML,CSS,JS,Bootstrap. <br />
+                      <br />
+                      I would be thrilled to help yours stand out. Make sure to
+                      stop by the contact section so we can get things going!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="section m-0" id="portfolio">
+        <div class="container">
+          <div class="row align-items-end justify-content-between mb-5">
+            <div class="col-lg-5 offset-lg-1">
+              <div class="intro">
+                <h3 class="fw-bolder h1 mb-4">My Portfolio</h3>
+                <p>
+                  Visit the portfolio of personal projects & give your valueable
+                  feedback.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="col-auto">
+                  <a
+                    href="demo-freelancer-works.html"
+                    class="button button-dark button-border rounded-pill"
+                    >View All Works <i class="icon-line-arrow-right"></i
+                  ></a>
+                </div> -->
+          </div>
+
+          <div class="row justify-content-center col-mb-50">
+            <div class="col-lg-6 h-translatey-3 tf-ts">
+              <a
+                href="https://delicious-restro.netlify.app"
+                class="portfolio-item"
+                target="_blank"
+              >
+                <div class="portfolio-image">
+                  <img
+                    src="demos/freelancer/images/restaurant-1.png"
+                    alt="Portfoio Item"
+                  />
+                  <div class="bg-overlay">
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4"
+                    >
+                      <h3 class="mb-0 mt-1">Delicious Restaurant Website</h3>
+                      <h5>Media, Icons</h5>
+                      <div
+                        class="bg-overlay-content align-items-start justify-content-end p-4"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-6 h-translatey-3 tf-ts">
+              <a
+                href="https://creative-design-template.netlify.app"
+                class="portfolio-item"
+                target="_blank"
+              >
+                <div class="portfolio-image">
+                  <img
+                    src="demos/freelancer/images/design-1.png"
+                    alt="Portfoio Item"
+                  />
+                  <div class="bg-overlay">
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4"
+                    >
+                      <h3 class="mb-0 mt-1">Creative Design Template</h3>
+                      <h5>Media, Icons</h5>
+                    </div>
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-end p-4"
+                    ></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-6 h-translatey-3 tf-ts">
+              <a
+                href="https://my-restro.netlify.app"
+                class="portfolio-item"
+                target="_blank"
+              >
+                <div class="portfolio-image">
+                  <img
+                    src="demos/freelancer/images/resto-1.png"
+                    alt="Portfoio Item"
+                  />
+                  <div class="bg-overlay">
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4"
+                    >
+                      <h3 class="mb-0 mt-1">Omnifood</h3>
+                      <h5>Media, Icons</h5>
+                    </div>
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-end p-4"
+                    ></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-6 h-translatey-3 tf-ts">
+              <a
+                href="demo-conference.html"
+                class="portfolio-item"
+                target="_blank"
+              >
+                <div class="portfolio-image">
+                  <img
+                    src="demos/freelancer/images/works/4.jpg"
+                    alt="Portfoio Item"
+                  />
+                  <div class="bg-overlay">
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-start flex-column px-5 py-4"
+                    >
+                      <h3 class="mb-0 mt-1">Niche Demo Conference</h3>
+                      <h5>Media, Icons</h5>
+                    </div>
+                    <div
+                      class="bg-overlay-content align-items-start justify-content-end p-4"
+                    >
+                      <div
+                        class="overlay-trigger-icon bg-dark text-white"
+                        data-hover-animate="fadeInDownSmall"
+                        data-hover-animate-out="fadeOutUpSmall"
+                        data-hover-speed="350"
+                      >
+                        <i class="icon-line-link"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+      <!-- Service Section -->
+      <div id="service" class="section bg-transparent py-5">
+        <div class="container">
+          <div class="row align-items-end mb-5">
+            <div class="col-lg-5 offset-lg-1">
+              <h3 class="fw-bolder h1">Services</h3>
+              <p>
+                Check out the range of services I provide from design to
+                front-end.
+              </p>
+            </div>
+          </div>
+
+          <div class="row gutter-50 mb-5 align-items-stretch">
+            <div class="col-md-4" data-aos="fade-up" data-aos-easing="linear">
+              <div
+                class="card d-flex align-items-end flex-column p-4 border-0"
+                style="background-color: #c2dfec"
+              >
+                <div class="mt-5"></div>
+                <div class="mt-auto">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                      <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="card-title fw-bolder">Website Development</h3>
+                    <p class="card-text mb-0 mt-2 fw-light">
+                      I can create responsive, dynamic, and branded websites
+                      from scratch, or fix exisiting sites.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-easing="linear">
+              <div
+                class="card d-flex align-items-end flex-column p-4 border-0"
+                style="background-color: #c2dfec"
+              >
+                <div class="mt-5"></div>
+                <div class="mt-auto">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                      <i class="fa-solid fa-window-restore"></i>
+                    </div>
+                    <h3 class="card-title fw-bolder">Responsive Website</h3>
+                    <p class="card-text mb-0 mt-2 fw-light">
+                      Build web pages that detect visitors screen size,
+                      orientation & change layout accordingly
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-easing="linear">
+              <div
+                class="card d-flex align-items-end flex-column p-4 border-0"
+                style="background-color: #c2dfec"
+              >
+                <div class="mt-5"></div>
+                <div class="mt-auto">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                      <i class="fa-brands fa-wordpress-simple"></i>
+                    </div>
+                    <h3 class="card-title fw-bolder">WordPress Website</h3>
+                    <p class="card-text mb-0 mt-2 fw-light">
+                      I can also create website using wordpress & customize
+                      themes to fit your needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-easing="linear">
+              <div
+                class="card d-flex align-items-end flex-column p-4 border-0"
+                style="background-color: #c2dfec"
+              >
+                <div class="mt-5"></div>
+                <div class="mt-auto">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                      <i class="fa-regular fa-ranking-star"></i>
+                    </div>
+                    <h3 class="card-title fw-bolder">SEO Optimised</h3>
+                    <p class="card-text mb-0 mt-2 fw-light">
+                      Lets me help you improve your sites ranking & visibilty
+                      with help of SEO.user-friendly optimized websites.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-easing="linear">
+              <div
+                class="card d-flex align-items-end flex-column p-4 border-0"
+                style="background-color: #c2dfec"
+              >
+                <div class="mt-5"></div>
+                <div class="mt-auto">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-4">
+                      <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <h3 class="card-title fw-bolder">Ongoing Support</h3>
+                    <p class="card-text mb-0 mt-2 fw-light">
+                      With monthly retainer I can help you update content, fix
+                      issues or maintain your website.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="section m-0" id="skill">
+        <div class="container mt-6">
+          <div class="row align-items-end">
+            <div class="col-lg-6 offset-lg-1">
+              <h3 class="fw-bolder h1">Skills</h3>
+              <p>
+                Check out the skills & tools that help me build beautiful
+                websites.
+              </p>
+            </div>
+          </div>
+          <div
+            class="section rounded-10 p-6 my-4"
+            style="background-color: #f1f1f1"
+          >
+            <div
+              class="row justify-content-between align-items-center col-mb-50"
+            >
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-html5"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">HTML5</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">CSS3</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-js"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">JavaScript</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-react"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">React JS</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-bootstrap"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">Bootstrap</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill shadow-on-hover text-center">
+                  <i class="fa-brands fa-wordpress-simple"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">WordPress</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill px-4 py-4 shadow-on-hover text-center">
+                  <i class="fa-brands fa-github"></i>
+                  <div class="skill-text">
+                    <h4 class="mt-2">GitHub</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 center" data-aos="fade-up">
+                <div class="skill px-4 py-4 shadow-on-hover text-center">
+                  <img
+                    class="skill-img"
+                    src="./demos/freelancer/images/vs-code.png"
+                    alt=""
+                  />
+                  <div class="skill-text">
+                    <h4 class="mt-2">VS-code</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="clear"></div>
+      </div> -->
+      <!-- #content end -->
+
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="border-0" style="background-color: #c9d6cf">
+        <div class="container">
+          <div class="footer-widgets-wrap m-0">
+            <div class="row justify-content-between">
+              <div class="col-md-4">
+                <div class="widget">
+                  <h3 class="h1 mb-5 mt-4">Contact Me</h3>
+                  <p>
+                    Get in touch if you have any exciting projects or you need
+                    any help regarding front-end development.
+                  </p>
+                  <a
+                    href="mailto:anitawalvekar05@gamil.com"
+                    class="h4 text-dark mt-5 mb-4 d-block"
+                    ><u>anitawalvekar05@gmail.com</u>
+                    <i
+                      class="icon-line-arrow-right position-relative ms-2"
+                      style="top: 3px"
+                    ></i
+                  ></a>
+                  <div class="col-auto Social-link">
+                    <a
+                      href="https://github.com/anniwalvekar"
+                      class="shadow-lg rounded m-2 mb-4"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/anita-walvekar-99964a235/"
+                      class="m-2 mb-4 shadow-lg rounded"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      href="https://twitter.com/AnitaW0508"
+                      target="_blank"
+                      class="m-2 mb-4 shadow-lg rounded"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a
+                      href="https://codepen.io/walvekaranni"
+                      target="_blank"
+                      class="m-2 mb-4 shadow-lg rounded"
+                      ><i class="fa-brands fa-codepen"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5">
+                <h3 class="h1 mb-5 mt-4">Let’s work together</h3>
+                <div
+                  class="form-widget"
+                  data-loader="button"
+                  data-alert-type="inline"
+                >
+                  <div class="form-result"></div>
+
+                  <form
+                    class="row mb-0"
+                    id="landing-enquiry"
+                    action="include/form.php"
+                    method="post"
+                    enctype="multipart/form-data"
+                  >
+                    <div class="form-process"></div>
+                    <div class="col-12 form-group mb-4">
+                      <label> Your Name:</label>
+                      <input
+                        type="text"
+                        name="landing-enquiry-name"
+                        id="landing-enquiry-name"
+                        class="form-control border-form-control required"
+                        value=""
+                      />
+                    </div>
+                    <div class="col-12 form-group mb-4">
+                      <label>Your Email Address:</label>
+                      <input
+                        type="email"
+                        name="landing-enquiry-email"
+                        id="landing-enquiry-email"
+                        class="form-control border-form-control required"
+                        value=""
+                      />
+                    </div>
+                    <div class="col-12 form-group mb-4">
+                      <label>Enter Message:</label>
+                      <textarea
+                        name="landing-enquiry-additional-requirements"
+                        id="landing-enquiry-additional-requirements"
+                        class="form-control border-form-control"
+                        cols="10"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <div class="col-12 d-none">
+                      <input
+                        type="text"
+                        id="landing-enquiry-botcheck"
+                        name="landing-enquiry-botcheck"
+                        value=""
+                      />
+                    </div>
+                    <div class="col-12">
+                      <button
+                        type="submit"
+                        name="landing-enquiry-submit"
+                        class="button h-translatey-3 bg-dark rounded-pill"
+                      >
+                        <i class="icon-line-arrow-right m-0"></i>
+                      </button>
+                    </div>
+
+                    <input
+                      type="hidden"
+                      name="prefix"
+                      value="landing-enquiry-"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Cursor -->
+
+    <div class="cursor"></div>
+
+    <!-- Go To Top
+	============================================= -->
+    <div
+      id="gotoTop"
+      class="icon-double-angle-up bg-white text-dark rounded-circle shadow"
+    ></div>
+
+    <!-- External JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+
+    <script src="js/plugins.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+
+    <script>
+      const cursor = document.querySelector(".cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.setAttribute(
+          "style",
+          "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+        );
+      });
+
+      document.addEventListener("click", () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+          cursor.classList.remove("expand");
+        }, 500);
+      });
+    </script>
+  </body>
+</html>
