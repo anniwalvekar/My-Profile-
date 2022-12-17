@@ -42,6 +42,9 @@ h1, h2, h3, h4, h5, h6, body { color: #333; }
 		margin: 100px 0;
 		padding: 100px 0;
 	}
+	.skill-img{
+		width: 3.5rem;
+	}
 }
 
 .navbar-brand i{
@@ -167,18 +170,18 @@ transition: all 0.4s;
     font-size: 2rem;
 	color: var(--text-dark);
 }
-.social-link a i{
+.social-icon i{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+	font-size: 1.8rem;
     color: var(--text-dark) !important;
-    padding: 0.8rem 1.5rem;
+    padding: 0.5rem 0.5rem;
     transition: transform 0.5s ease;
  
   }
-  .social-link a i:hover{
-    color: var(--secondary-text);
-    background-color:#0d1013 ;
+  .social-icon i:hover{
+    color: var(--secondary-text) !important;
     transform: translateY(-3px);
   }
 
