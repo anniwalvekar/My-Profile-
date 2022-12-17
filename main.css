@@ -7,7 +7,7 @@
 	--themecolor: #f7c25e;
 	--themecolorrgba: 247, 194, 94;
 	  --secondary-text:#ff014f;
-	  --text-dark:#092032;
+	  --text-dark:#040f18;
 }
 
 h1, h2, h3, h4, h5, h6, body { color: #333; }
@@ -171,7 +171,7 @@ transition: all 0.4s;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-dark);
+    color: var(--text-dark) !important;
     padding: 0.8rem 1.5rem;
     transition: transform 0.5s ease;
  

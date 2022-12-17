@@ -38,45 +38,8 @@
 }
 
 
-/* ----------------------------------------------------------------
-	Basic
------------------------------------------------------------------*/
 
-dl, dt, dd, ol, ul, li {
-	margin: 0;
-	padding: 0;
-}
 
-.clear {
-	clear: both;
-	display: block;
-	font-size: 0px;
-	height: 0px;
-	line-height: 0;
-	width: 100%;
-	overflow:hidden;
-}
-
-::selection {
-	background: #1ABC9C;
-	color: #FFF;
-	text-shadow: none;
-}
-
-::-moz-selection {
-	background: #1ABC9C; /* Firefox */
-	color: #FFF;
-	text-shadow: none;
-}
-
-::-webkit-selection {
-	background: #1ABC9C; /* Safari */
-	color: #FFF;
-	text-shadow: none;
-}
-
-:active,
-:focus { outline: none !important; }
 
 
 /* ----------------------------------------------------------------
@@ -8948,8 +8911,8 @@ body:not(.device-touch) .button.button-full strong {
 
 /* Buttons - Colors
 -----------------------------------------------------------------*/
-
-.button-red:not(.button-border) { background-color: #C02942 !important; }
+/* 
+/* .button-red:not(.button-border) { background-color: #C02942 !important; }
 .button-3d.button-red:hover,
 .button-reveal.button-red:hover,
 .button-border.button-red:hover,
@@ -8958,9 +8921,9 @@ body:not(.device-touch) .button.button-full strong {
 .button-border.button-red {
 	color: #C02942;
 	border-color: #C02942;
-}
+} */
 
-.button-teal:not(.button-border) { background-color: #53777A !important; }
+/* .button-teal:not(.button-border) { background-color: #53777A !important; }
 .button-3d.button-teal:hover,
 .button-reveal.button-teal:hover,
 .button-border.button-teal:hover,
@@ -9109,7 +9072,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .button-white:not(.button-border) { background-color: #F9F9F9 !important; }
 .button-3d.button-white:hover,
-.button-reveal.button-white:hover { background-color: #F9F9F9 !important; }
+.button-reveal.button-white:hover { background-color: #F9F9F9 !important; } */
 
 
 /* Buttons - No Hover
@@ -9143,7 +9106,7 @@ body:not(.device-touch) .button.button-full strong {
 	font-weight: 300;
 	font-size: 1.125rem;
 	margin-top: 6px;
-}
+} */
 
 
 /* Promo Uppercase

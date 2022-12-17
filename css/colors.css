@@ -9,7 +9,7 @@
 	--themecolor: #1ABC9C; /* Change this Color */
 }
 
-
+/* 
 ::selection {
 	background: var(--themecolor);
 }
@@ -304,4 +304,4 @@ input.switch-toggle-flat:checked + label:after,
 		border-left-color: transparent;
 		border-right-color: var(--themecolor);
 	}
-}
+} */
