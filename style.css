@@ -8471,8 +8471,8 @@ p.wp-caption-text {
 	padding: 8px 22px;
 	font-size: 0.875rem;
 	line-height: 24px;
-	background-color: #1ABC9C;
-	color: #FFF;
+	background-color: #f2f7f6;
+	color: #1d1c1c;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -8480,11 +8480,9 @@ p.wp-caption-text {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-body:not(.device-touch) .
 
 
-
-on {
+button {
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
@@ -8500,15 +8498,15 @@ on {
 	text-shadow: none !important;
 }
 
-.button:hover {
+/* .button:hover {
 	background-color: #444;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-}
+} */
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+/* .button.button-dark:hover { background-color: #1ABC9C; } */
 
-.button.button-mini {
+/* .button.button-mini {
 	padding: 4px 14px;
 	font-size: 11px;
 	line-height: 20px;
@@ -8552,7 +8550,7 @@ on {
 	font-family: 'Montserrat ', sans-serif;
 	font-style: italic;
 	text-transform: none;
-}
+} */
 
 .button i {
 	position: relative;
