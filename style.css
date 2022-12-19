@@ -34,6 +34,7 @@
 	.skill-img{
 		width: 100%;
 	}
+	
 }
 
 .form-group {
@@ -62,15 +63,14 @@ a {
 }
 
 
-
-/* 
+ 
 img { max-width: 100%; }
 
 iframe {
 	width: 100%;
 	border: 0 !important;
 	overflow: hidden !important;
-}  */
+}  
 
 
 /* ----------------------------------------------------------------
@@ -111,6 +111,15 @@ h4 { font-weight: 600; }
 h5,
 h6 { font-weight: bold; }
 
+@media (max-width: 520px) {
+	.portfolio-image h3 {
+		font-size: 0.6rem;
+	}
+	.portfolio-image h5{
+		font-size: 0.4rem;
+	}
+}
+
 @media (max-width: 767.98px) {
 
 	h1 {
@@ -126,6 +135,9 @@ h6 { font-weight: bold; }
 	}
 
 	h4 {
+		font-size: 1rem;
+	}
+	h5{
 		font-size: 1rem;
 	}
 
@@ -3450,7 +3462,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .svg-trigger path {
 	fill: none;
 	transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-	stroke: #333;
+	stroke: #FFF;
 	stroke-width: 5;
 	stroke-linecap:round;
 }
