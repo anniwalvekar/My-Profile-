@@ -4664,7 +4664,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	Top Search
 -----------------------------------------------------------------*/
 
-.header-misc {
+/* .header-misc {
 	position: initial;
 	display: -ms-flexbox;
 	display: flex;
@@ -4805,11 +4805,11 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .primary-menu .container .top-search-form input,
-.sticky-header .top-search-form input { border: none !important; }
+.sticky-header .top-search-form input { border: none !important; } */
 
 /* Top Search Animation */
 
-#top-search {
+/* #top-search {
 	-webkit-transition: opacity .3s ease;
 	transition: opacity .3s ease;
 }
@@ -4824,14 +4824,14 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 
 .top-search-open .top-search-parent #logo,
 .top-search-open .top-search-parent .primary-menu,
-.top-search-open .top-search-parent .header-misc > *:not(#top-search) { opacity: 0; }
+.top-search-open .top-search-parent .header-misc > *:not(#top-search) { opacity: 0; } */
 
 
 /* ----------------------------------------------------------------
 	Top Cart
 -----------------------------------------------------------------*/
 
-
+/* 
 .top-cart-number {
 	display: block;
 	position: absolute;
@@ -5026,14 +5026,14 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 	.top-cart-items {
 		padding: 1rem;
 	}
-}
+} */
 
 
 /* ----------------------------------------------------------------
 	Page Menu
 -----------------------------------------------------------------*/
 
-#page-menu {
+/* #page-menu {
 	position: relative;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
@@ -5227,7 +5227,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 	/* Page Menu - Dots Style
 	-----------------------------------------------------------------*/
 
-	#page-menu.dots-menu {
+	/*#page-menu.dots-menu {
 		position: fixed;
 		top: 50%;
 		left: auto;
@@ -5349,10 +5349,10 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 		right: 30px;
 	}
 
-}
+}*/
 
 
-/* ----------------------------------------------------------------
+/* ---------------------------------------------------------------- */
 	One Page
 -----------------------------------------------------------------*/
 
