@@ -113,7 +113,7 @@ h6 { font-weight: bold; }
 
 @media (max-width: 520px) {
 	.portfolio-image h3 {
-		font-size: 1.5rem;
+		font-size: 0.8rem;
 	}
 	.portfolio-image h5{
 		display: none; 
